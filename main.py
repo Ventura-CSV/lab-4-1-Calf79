@@ -8,7 +8,9 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    for i in range(1+N):
+        result.append(2**i)
+    print(result)
     ########################################
     # Do not delete the return statement
     ########################################
